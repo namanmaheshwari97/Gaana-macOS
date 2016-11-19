@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC5D190D1DE015E5005FD77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D190C1DE015E5005FD77A /* AppDelegate.swift */; };
+		BC5D190F1DE015E5005FD77A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D190E1DE015E5005FD77A /* ViewController.swift */; };
+		BC5D19121DE015E5005FD77A /* Gaana.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC5D19101DE015E5005FD77A /* Gaana.xcdatamodeld */; };
+		BC5D19141DE015E5005FD77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5D19131DE015E5005FD77A /* Assets.xcassets */; };
+		BC5D19171DE015E5005FD77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5D19151DE015E5005FD77A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC5D19091DE015E5005FD77A /* Gaana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D190C1DE015E5005FD77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC5D190E1DE015E5005FD77A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5D19111DE015E5005FD77A /* Gaana.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gaana.xcdatamodel; sourceTree = "<group>"; };
+		BC5D19131DE015E5005FD77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC5D19161DE015E5005FD77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC5D19181DE015E5005FD77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC5D19061DE015E4005FD77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC5D19001DE015E4005FD77A = {
+			isa = PBXGroup;
+			children = (
+				BC5D190B1DE015E5005FD77A /* Gaana */,
+				BC5D190A1DE015E5005FD77A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC5D190A1DE015E5005FD77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D19091DE015E5005FD77A /* Gaana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC5D190B1DE015E5005FD77A /* Gaana */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D190C1DE015E5005FD77A /* AppDelegate.swift */,
+				BC5D190E1DE015E5005FD77A /* ViewController.swift */,
+				BC5D19131DE015E5005FD77A /* Assets.xcassets */,
+				BC5D19151DE015E5005FD77A /* Main.storyboard */,
+				BC5D19181DE015E5005FD77A /* Info.plist */,
+				BC5D19101DE015E5005FD77A /* Gaana.xcdatamodeld */,
+			);
+			path = Gaana;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC5D19081DE015E4005FD77A /* Gaana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5D191B1DE015E5005FD77A /* Build configuration list for PBXNativeTarget "Gaana" */;
+			buildPhases = (
+				BC5D19051DE015E4005FD77A /* Sources */,
+				BC5D19061DE015E4005FD77A /* Frameworks */,
+				BC5D19071DE015E4005FD77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaana;
+			productName = Gaana;
+			productReference = BC5D19091DE015E5005FD77A /* Gaana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC5D19011DE015E4005FD77A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Naman Maheshwari";
+				TargetAttributes = {
+					BC5D19081DE015E4005FD77A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G362XJQKZW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BC5D19041DE015E4005FD77A /* Build configuration list for PBXProject "Gaana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC5D19001DE015E4005FD77A;
+			productRefGroup = BC5D190A1DE015E5005FD77A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC5D19081DE015E4005FD77A /* Gaana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC5D19071DE015E4005FD77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5D19141DE015E5005FD77A /* Assets.xcassets in Resources */,
+				BC5D19171DE015E5005FD77A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC5D19051DE015E4005FD77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5D190F1DE015E5005FD77A /* ViewController.swift in Sources */,
+				BC5D19121DE015E5005FD77A /* Gaana.xcdatamodeld in Sources */,
+				BC5D190D1DE015E5005FD77A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC5D19151DE015E5005FD77A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC5D19161DE015E5005FD77A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC5D19191DE015E5005FD77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC5D191A1DE015E5005FD77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BC5D191C1DE015E5005FD77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G362XJQKZW;
+				INFOPLIST_FILE = Gaana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.Gaana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC5D191D1DE015E5005FD77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G362XJQKZW;
+				INFOPLIST_FILE = Gaana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NamanMaheshwari.Gaana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC5D19041DE015E4005FD77A /* Build configuration list for PBXProject "Gaana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D19191DE015E5005FD77A /* Debug */,
+				BC5D191A1DE015E5005FD77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5D191B1DE015E5005FD77A /* Build configuration list for PBXNativeTarget "Gaana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC5D191C1DE015E5005FD77A /* Debug */,
+				BC5D191D1DE015E5005FD77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC5D19101DE015E5005FD77A /* Gaana.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC5D19111DE015E5005FD77A /* Gaana.xcdatamodel */,
+			);
+			currentVersion = BC5D19111DE015E5005FD77A /* Gaana.xcdatamodel */;
+			path = Gaana.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC5D19011DE015E4005FD77A /* Project object */;
+}
