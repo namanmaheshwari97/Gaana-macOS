@@ -57,8 +57,8 @@
 				BC5D190C1DE015E5005FD77A /* AppDelegate.swift */,
 				BC5D190E1DE015E5005FD77A /* ViewController.swift */,
 				BC5D19131DE015E5005FD77A /* Assets.xcassets */,
-				BC5D19151DE015E5005FD77A /* Main.storyboard */,
 				BC5D19181DE015E5005FD77A /* Info.plist */,
+				BC5D19151DE015E5005FD77A /* Main.storyboard */,
 				BC5D19101DE015E5005FD77A /* Gaana.xcdatamodeld */,
 			);
 			path = Gaana;
