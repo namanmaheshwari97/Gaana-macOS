@@ -12,30 +12,19 @@ import WebKit
 class ViewController: NSViewController, WKUIDelegate, WKNavigationDelegate{
 
     @IBOutlet var webView: WebView!
-    /*
-    override func loadView() {
-     
-        
-        
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.uiDelegate = self
-        view = webView
-    }
- */
- 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        webView.preferences.arePlugInsEnabled = true
-        webView.mainFrame.load(URLRequest(url: URL(string: "https://www.gaana.com/")!))
-     /*
-        let myURL = URL(string: "https://www.gaana.com/")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
-      */
-        // Do any additional setup after loading the view.
+        webviewInitLoad()
+
     }
 
+    func webviewInitLoad(){
+        webView.preferences.allowsAirPlayForMediaPlayback = true
+        webView.preferences.arePlugInsEnabled = true
+        webView.mainFrame.load(URLRequest(url: URL(string: "https://www.gaana.com/")!))
+    }
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
