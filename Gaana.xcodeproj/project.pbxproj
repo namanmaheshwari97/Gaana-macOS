@@ -293,6 +293,7 @@
 				BC5D191D1DE015E5005FD77A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
